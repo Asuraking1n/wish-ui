@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+*{
+    margin: 0;
+}
+
+#loading{
+    height: 100vh;
+    width: 100%;
+    background:#FFFFFF url("https://cssbud.com/wp-content/uploads/2021/08/tweaking-robot.gif") no-repeat center;
+    position: fixed;
+    z-index: 999999;
+}
+@media (min-width: 811px) {
+.main-cont{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #ffffff; */
+    background: url(../assets/bg2.jpg) center center / cover;
+    overflow: hidden;
+    position: relative;
+}
+.navbar{
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    position: relative;
+}
+.nav-logo{
+    height: 100%;
+    width: 20%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+.nav-logo:nth-child(1n){
+    font-size: 3rem;
+    color: #524ea1;
+    
+}
+.gear{
+    position: absolute;
+    top: 22%;
+    left: 2.5%;
+    height: 3rem;
+    width: 3rem;
+    opacity: 0.5;
+    animation: App-logo-spin infinite 5s linear;
+}
+.nav-buttons{
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-buttons span{
+    margin-right: 5rem;
+}
+.nav-buttons span a{
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    color: rgb(141, 137, 137);
+    font-size: 1.2em ;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.nav-buttons span a:hover{
+    color: rgb(58, 55, 55);
+}
+.ham-burger{
+    font-size: 2rem;
+    margin-right: 1rem;
+    display: none;
+}
+.sidebar{
+    display: none;
+    
+}
+
+/* .social-tab-containers{
+    height: 6rem;
+    width: 10%;
+    padding-top: 1rem;
+    background-color: blue;
+    
+} */
+.social-btn{
+    width: 6rem;
+    padding:.2rem 1rem;
+    background-color: #fff;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+    box-shadow: 1px 0px 17px 0px #7d7d7e;
+    position: absolute;
+    left: -5rem;
+    top: 15rem;
+    transition: all 1s;
+    
+}
+.btn2{
+    top: 10rem;
+}
+.social-btn:hover{
+    left: 0;
+    /* background-color: #5D2D9E; */
+}
+.social-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #5D2D9E;
+    font-weight: 600;
+    font-family:  'Hind', sans-serif;
+}
+.social-icon{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+}
+.github{
+    color:#5D2D9E;
+    font-size: 2rem;
+}
+.body-sec{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: tomato;
+}
+.body-data{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+.body-heading{
+    width: 60%;
+    padding-left: 10px;
+    padding-top: 11rem;
+    font-size: 3.5rem;
+    line-height: 50px;
+    text-align: start;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.body-heading span{
+    font-size: 2.5rem;
+    color: #3499DC;
+}
+.body-img{
+    height: 120%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.body-img img{
+    height: 80%;
+    width: 80%;
+    animation: side-img-animate infinite 4s linear;
+}
+.body-summary{
+    width: 70%;
+    padding-left: 4.8rem;
+    padding-top: 1rem;
+    color: rgb(144, 144, 144);
+    font-family: 'Hind',sans-serif;
+    font-size: 1.2rem;
+}
+.start{
+    height: 3rem;
+    font: 1.2em sans-serif;
+    width: 10rem;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #3499dc;
+    background-color: #fff;
+    color: #3499dc;
+    margin-top: 1rem;
+    margin-left: 0 !important;
+
+}
+.launch-btn{
+    width: 57%
+}
+.start:hover{
+    background-color: #3499dc;
+    color: #fff;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* mobile  */
+@media (max-width: 480px) {
+    
+    .navbar{
+        height: 4.5rem;
+        width: 100%;
+        background-color: rgb(246, 246, 246);
+        display: flex;
+        position: relative;
+    }
+    .nav-logo{
+        height: 100%;
+        width: 50%;
+        background-color: transparent;
+        display: flex;
+        z-index: 2;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    .nav-logo:nth-child(1n){
+        font-size: 3rem;
+        color: #524ea1;
+        
+    }
+    .nav-buttons{
+        height: 100%;
+        width: 60%;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+        justify-content: flex-end;
+    }
+    
+    .nav-buttons span{
+        display: none;
+    }
+    .sidebar{
+        width: 50%;
+        height: 100%;
+        background-color: rgb(246, 246, 246);
+        position: absolute;
+        left: -20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 1s;
+        z-index: 100;
+        
+    }
+    .sidebar.active{
+        left:0;
+    }
+    .sidebar span{
+        margin: 1rem 0;
+    }
+    .sidebar span a{
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Hind', sans-serif;
+        font-size: 1.2rem;
+        color: rgb(141, 137, 137);
+    }
+    .sidebar span a:hover{
+        color: rgb(53, 49, 49);
+    }
+    .ham-burger{
+        font-size: 1.5rem;
+        color:rgb(62, 59, 63);
+        cursor: pointer;
+    }
+    
+.social-tab-containers{
+    /* height: 3rem; */
+    z-index: -1;
+    width: 100%;
+    padding-top: 1rem;
+    background-color: transparent;
+    
+}
+.social-btn{
+    width: 6rem;
+    padding:.2rem 1rem;
+    background-color: #fff;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+    box-shadow: 1px 0px 17px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    left: -5rem;
+    transition: all 1s;
+    
+}
+.btn2{
+    top: 10rem;
+}
+.social-btn:hover{
+    left: 0;
+    background-color: #5D2D9E;
+}
+.social-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family:  'Hind', sans-serif;
+}
+.social-icon{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+}
+.github{
+    color:#5D2D9E;
+    font-size: 2rem;
+}
+
+.body-sec{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: tomato;
+}
+.body-data{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+.body-heading{
+    width: 80%;
+    padding-left: 10px;
+    font-size: 3rem;
+    line-height: 50px;
+    text-align: start;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.body-heading span{
+    font-size: 2rem;
+    color: #3499DC;
+}
+.body-img{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.body-img img{
+    height: 60%;
+    width: 60%;
+    animation: side-img-animate infinite 4s linear;
+    
+}
+.body-summary{
+    width: 75%;
+    /* padding-left: 6rem; */
+    padding-top: 1rem;
+    color: rgb(144, 144, 144);
+    font-family: 'Hind',sans-serif;
+    font-size: 1.2rem;
+}
+.start{
+    height: 3rem;
+    font: 1.2em sans-serif;
+    width: 10rem;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #3499dc;
+    background-color: #fff;
+    color: #3499dc;
+    margin-top: 1rem;
+    margin-left: 0 !important;
+
+}
+.launch-btn{
+    width: 78%;
+}
+.start:hover{
+    background-color: #3499dc;
+    color: #fff;
+}
+
+.gear{
+    position: absolute;
+    top: 22%;
+    left: 0;
+    height: 3rem;
+    z-index: 0;
+    width: 3rem;
+    opacity: 0.5;
+    animation: App-logo-spin infinite 5s linear;
+}
+
+
+
+
+
+
+}
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 810px) {
+    .navbar{
+        height: 5rem;
+        width: 100%;
+        background-color: rgb(246, 246, 246);
+        display: flex;
+        position: relative;
+    }
+    .nav-logo{
+        height: 100%;
+        width: 20%;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    .nav-logo:nth-child(1n){
+        font-size: 3rem;
+        color: #524ea1;
+        
+    }
+    .nav-buttons{
+        height: 100%;
+        width: 80%;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .nav-buttons span{
+        margin-right: 5rem;
+    }
+    .nav-buttons span a{
+        text-decoration: none;
+        font-family: 'Hind', sans-serif;
+        color: rgb(141, 137, 137);
+        font-size: 1.2em ;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .nav-buttons span a:hover{
+        color: rgb(58, 55, 55);
+    }
+    .ham-burger{
+        font-size: 2rem;
+        margin-right: 1rem;
+        display: none;
+    }
+    .sidebar{
+        display: none;
+        
+    }
+    
+/* .social-tab-containers{
+    height: 6rem;
+    width: 100%;
+    padding-top: 1rem;
+    background-color: transparent;
+    
+} */
+.social-btn{
+    width: 6rem;
+    padding:.2rem 1rem;
+    background-color: #fff;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+    box-shadow: 1px 0px 17px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    left: -5rem;
+    top: 15rem;
+    transition: all 1s;
+    
+}
+.btn2{
+    top: 10rem;
+}
+.social-btn:hover{
+    left: 0;
+    background-color: #5D2D9E;
+}
+.social-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family:  'Hind', sans-serif;
+}
+.social-icon{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+}
+.github{
+    color:#5D2D9E;
+    font-size: 2rem;
+}
+
+.body-sec{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: tomato;
+}
+.body-data{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+.body-heading{
+    width: 50%;
+    padding-left: 10px;
+    font-size: 3.5rem;
+    line-height: 50px;
+    text-align: start;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.body-heading span{
+    font-size: 2.5rem;
+    color: #3499DC;
+}
+.body-img{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.body-img img{
+    height: 60%;
+    width: 60%;
+    animation: side-img-animate infinite 4s linear;
+}
+.body-summary{
+    width: 60%;
+    padding-left: 6rem;
+    padding-top: 1rem;
+    color: rgb(144, 144, 144);
+    font-family: 'Hind',sans-serif;
+    font-size: 1.2rem;
+}
+.start{
+    height: 3rem;
+    font: 1.2em sans-serif;
+    width: 10rem;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #3499dc;
+    background-color: #fff;
+    color: #3499dc;
+    margin-top: 1rem;
+    margin-left: 0 !important;
+
+}
+.launch-btn{
+    width: 48%;
+}
+.start:hover{
+    background-color: #3499dc;
+    color: #fff;
+}
+
+.gear{
+    position: absolute;
+    top: 22%;
+    left: 0;
+    height: 3rem;
+    width: 3rem;
+    opacity: 0.5;
+    animation: App-logo-spin infinite 5s linear;
+}
+
+
+
+}
+
+
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes side-img-animate{         
+    0% {
+        transform: translate(0px,0px)
+    }
+    
+    
+    50% {
+        transform: translate(15px,5px)
+    }
+    
+    
+    100% {
+        transform: translate(0px,0px)
+    }	
+    }
