@@ -194,8 +194,13 @@
     .doc-main-body{
         width: 100%;
     }
+    .install-heading{
+        font-size: 2rem;
+    }
+    
     .install-frame{
         margin-left: 1.2rem;
+        margin-top: 1rem;
     }
     .install-frame iframe{
         height: 121%;
