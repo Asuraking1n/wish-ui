@@ -198,6 +198,10 @@
         font-size: 2rem;
     }
     
+    .install-summary{
+        
+        padding-right: 4rem;
+    }
     .install-frame{
         margin-left: 1.2rem;
         margin-top: 1rem;
