@@ -3,7 +3,7 @@ const sideBar  = document.querySelector(".sidebar")
 const preLoader=()=> {
     setTimeout(()=>{
         preLoad.style.display = 'none'
-    },2000)
+    },1000)
     
 }
 const sideshow = () =>{
