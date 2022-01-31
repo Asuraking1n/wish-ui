@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+
+
+/* @media (min-width: 811px) {
+}
+ */
+
+.doc-cont{
+    width: 100%;
+    height: 87vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.doc-sidebar{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+        
+}
+.doc-sidebar span{
+    padding: 1rem 0;
+    
+    
+}
+.doc-sidebar span a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(141, 137, 137);
+    
+    
+}
+.doc-sidebar span a:hover{
+    color: rgb(53, 49, 49);
+}
+
+
+.doc-main-body{
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+#installation{
+    height: 30rem;
+    width: 100%;
+    padding: 2rem;
+    
+    font-family: 'Hind',sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.install-heading{
+    font-size: 3rem;
+    color: #524ea1;
+}
+
+.install-summary{
+    color: rgb(156, 156, 156);
+    padding-left: 4px;
+    padding-right: 2rem;
+}
+.install-summary span{
+    color: #3499DC;
+    letter-spacing: 2px;
+}
+.install-frame{
+    width: 65%;
+    height: 8rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: calc();
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+.install-frame iframe{
+    width: 100%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 10%;
+}
+.coming-soon{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 1rem;
+    padding-left: 10rem;
+}
+.coming-soon img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#avatar{
+    height:67rem;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Hind',sans-serif;
+}
+.avatar-heading{
+    font-size: 3rem;
+    color: #524ea1;
+}
+.avatar-summary{
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+    padding-right: 2rem;
+    line-height: 35px;
+    color: rgb(124, 124, 124);
+}
+.sample-avatar-head{
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #524ea1;
+}
+.sample-avatar-summary{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding-right: 2rem;
+}
+.sample-avatar-summary span{
+    color: #524ea1;
+    font-weight: 600;
+}
+.avatar-sample-cont{
+    height: 15rem;
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid #524ea1;
+}
+.avatar-container{
+    overflow: hidden;
+    border-radius: 50%;
+}
+.avatar-container img{
+    height: 100%;
+    width: 100%;
+}
+.avatar-large{
+    height: 10rem;
+    width: 10rem;
+}
+
+.avatar-big{
+    height: 8rem;
+    width: 8rem;
+}
+.avatar-medium{
+    height: 5rem;
+    width: 5rem;
+}
+.avatar-small{
+    height: 3rem;
+    width: 3rem;
+}
+.avatar-frame{
+    /* position: relative; */
+    height: 25rem;
+    width: 70%;
+    margin-top: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+.avatar-frame iframe{
+    height: 120%;
+    width: 45rem;
+}
+
+
+
+
+
+
+
+
+/* mobile  */
+@media (max-width: 480px) {
+    .doc-sidebar{
+        display: none;
+    }
+    .doc-main-body{
+        width: 100%;
+    }
+    .install-frame{
+        margin-left: 1.2rem;
+    }
+    .install-frame iframe{
+        height: 121%;
+    }
+    .coming-soon{
+        padding-left: 8rem;
+    }
+    .avatar-heading{
+        font-size: 2rem;
+    }
+    .avatar-frame{
+        overflow: auto;
+    }
+    .avatar-summary{
+        font-size: 1.2rem;
+        letter-spacing: 0.5px;
+        line-height: 25px;
+        padding-right:4rem;
+    }
+    .sample-avatar-head{
+        font-size: 1.5rem;
+    }
+    .sample-avatar-summary{
+        padding-right:4rem;
+        font-size: 1rem;
+    }
+    .avatar-sample-cont{
+        height: 40rem;
+        flex-direction: column;
+        border: 0;
+    }
+    .avatar-frame iframe{
+        height: 120%;
+        width: 120%;
+    }
+    
+
+}
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 810px) {
+
+
+
+}
+
+

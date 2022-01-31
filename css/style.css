@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-
+@import "./docs.css";
 *{
     margin: 0;
 }
@@ -307,6 +307,7 @@
     box-shadow: 1px 0px 17px 0px rgba(0,0,0,0.75);
     position: absolute;
     left: -5rem;
+    z-index: 2;
     transition: all 1s;
     
 }
@@ -382,6 +383,7 @@
 .body-img img{
     height: 60%;
     width: 60%;
+    z-index: 0;
     animation: side-img-animate infinite 4s linear;
     
 }
