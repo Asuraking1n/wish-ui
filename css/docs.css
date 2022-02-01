@@ -76,8 +76,6 @@
     width: 65%;
     height: 8rem;
     margin-top: 4rem;
-    display: flex;
-    justify-content: calc();
     overflow: hidden;
     background-color: rgb(255, 255, 255);
 }
@@ -203,6 +201,7 @@
         padding-right: 4rem;
     }
     .install-frame{
+            
         margin-left: 1.2rem;
         margin-top: 1rem;
     }
