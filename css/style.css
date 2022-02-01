@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import "./docs.css";
 @import "./alert.css";
+@import "./badge.css";
 *{
     margin: 0;
 }

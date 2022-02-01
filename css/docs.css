@@ -141,10 +141,11 @@
     border: 3px solid #524ea1;
 }
 .avatar-container{
-    overflow: hidden;
-    border-radius: 50%;
+    /* overflow: hidden; */
+    /* border-radius: 50%; */
 }
 .avatar-container img{
+    border-radius: 50%;
     height: 100%;
     width: 100%;
 }
@@ -200,14 +201,14 @@
         
         padding-right: 4rem;
     }
-    .install-frame{
+    /* .install-frame{
             
         margin-left: 1.2rem;
         margin-top: 1rem;
     }
     .install-frame iframe{
         height: 130%;
-    }
+    } */
     .coming-soon{
         padding-left: 8rem;
     }
@@ -250,7 +251,9 @@
 @media (min-width: 481px) and (max-width: 810px) {
 
 
-
+    #avatar{
+        height: 85rem;
+    }
 }
 
 

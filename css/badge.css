@@ -1,0 +1,81 @@
+#badge{
+    height:67rem;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Hind',sans-serif;
+}
+.avatar-container {
+    position: relative;
+}
+.red-badge{
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    top: 75%;
+    right: 8px;
+    width: 20px;
+    background-color: red;
+    z-index: 20;
+    position: absolute;
+}
+.green-badge{
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    top: 75%;
+    right: 8px;
+    width: 20px;
+    background-color: green;
+    z-index: 20;
+    position: absolute;
+}
+.orange-badge{
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    top: 75%;
+    right: 8px;
+    width: 15px;
+    background-color: orange;
+    z-index: 20;
+    position: absolute;
+}
+.blue-badge{
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    top: 75%;
+    right: 0px;
+    width: 10px;
+    background-color: blue;
+    z-index: 20;
+    position: absolute;
+}
+.badge-frame{
+    height: 25rem;
+    width: 70%;
+    margin-top: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+.badge-frame iframe{
+    height: 120%;
+    width: 110%;
+}
+
+
+/* mobile  */
+@media (max-width: 480px) {
+    #badge{
+        height:95rem;
+    }
+}
+
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 810px) {
+
+    #badge{
+        height:77rem;
+    }
+}
