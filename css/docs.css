@@ -74,7 +74,7 @@
 }
 .install-frame{
     width: 65%;
-    height: 8rem;
+    height: 10rem;
     margin-top: 4rem;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
@@ -104,29 +104,29 @@
     background-color: rgb(255, 255, 255);
     font-family: 'Hind',sans-serif;
 }
-.avatar-heading{
+.component-heading{
     font-size: 3rem;
     color: #524ea1;
 }
-.avatar-summary{
+.component-summary{
     letter-spacing: 2px;
     font-size: 1.7rem;
     padding-right: 2rem;
     line-height: 35px;
     color: rgb(124, 124, 124);
 }
-.sample-avatar-head{
+.sample-component-head{
     font-size: 2rem;
     margin-top: 2rem;
     color: #524ea1;
 }
-.sample-avatar-summary{
+.sample-component-summary{
     padding-top: 1rem;
     font-size: 1.2rem;
     letter-spacing: 1px;
     padding-right: 2rem;
 }
-.sample-avatar-summary span{
+.sample-component-summary span{
     color: #524ea1;
     font-weight: 600;
 }
@@ -206,27 +206,30 @@
         margin-top: 1rem;
     }
     .install-frame iframe{
-        height: 121%;
+        height: 130%;
     }
     .coming-soon{
         padding-left: 8rem;
     }
-    .avatar-heading{
+    .component-heading{
         font-size: 2rem;
+    }
+    #avatar{
+        height: 95rem;
     }
     .avatar-frame{
         overflow: auto;
     }
-    .avatar-summary{
+    .component-summary{
         font-size: 1.2rem;
         letter-spacing: 0.5px;
         line-height: 25px;
         padding-right:4rem;
     }
-    .sample-avatar-head{
+    .sample-component-head{
         font-size: 1.5rem;
     }
-    .sample-avatar-summary{
+    .sample-component-summary{
         padding-right:4rem;
         font-size: 1rem;
     }
