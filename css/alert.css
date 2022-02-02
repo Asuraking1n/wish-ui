@@ -1,5 +1,5 @@
 #alert{
-    height:67rem;
+    height:87rem;
     width: 100%;
     padding: 2rem;
     background-color: rgb(255, 255, 255);
@@ -59,7 +59,7 @@
     color: #FF9204;
     margin-top: 2rem;
 }
-.alert-frame{
+/* .alert-frame{
     height: 30rem;
     width: 70%;
     margin-top: 1rem;
@@ -74,14 +74,14 @@
 .alert-frame iframe{
     height: 120%;
     width: 110%;
-}
+} */
 
 
 
 /* mobile  */
 @media (max-width: 480px) {
     #alert{
-        height: 87rem;
+        height: 90rem;
     }
     .alert-sample-cont{
         border: none;
@@ -97,11 +97,18 @@
     .alert-icon{
         font-size: 1.4rem;
     }
-    .alert-frame{
-        overflow: auto;
-    }
-    .alert-frame iframe{
-        height: 120%;
-        width: 110%;
-    }
+
 }
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 810px) {
+
+    #alert{
+        height: 100rem;
+    }
+    .alert-sample-cont{
+        border: none;
+    }
+
+}
+
