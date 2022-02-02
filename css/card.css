@@ -1,0 +1,120 @@
+#card{
+    height:80rem;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Hind',sans-serif;
+}
+.card-sample-cont{
+    height: 30rem;
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid #524ea1;
+
+}
+.cardOne {
+    height: 10rem;
+    width: 20rem;
+    box-shadow: 2px 2px 79px -44px rgba(0,0,0,0.75);
+  }
+  .imageData {
+    display: flex;
+    height: 65%;
+  }
+  .image img {
+    height: 6.5rem;
+    width: 6.5rem;
+    border-radius: 2px 4px 0 0;
+  }
+  .data {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.0125em;
+  }
+  .data span {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+  }
+  .socialandLikes {
+    height: 35%;
+    display: flex;
+    align-items: center;
+    /* background-color: royalblue; */
+    justify-content: space-evenly;
+  }
+  .socialandLikes span {
+    color: rebeccapurple;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+  }
+  #icon {
+    color: rgb(138, 138, 138) !important;
+    /* background-color: rgb(138, 138, 138) !important; */
+  }
+  .cardTwo {
+    margin-top: 2rem;
+    height: 15rem;
+    width: 20rem;
+    box-shadow: 2px 2px 79px -44px rgba(0,0,0,0.75);
+  }
+  .image-cardTwo {
+    height: 40%;
+    background-color: yellow;
+    overflow: hidden;
+  }
+  .image-cardTwo img {
+    height: 150%;
+    width: 100%;
+  }
+  .data-cardTwo {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.0125em;
+  }
+  .data-cardTwo span {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+  }
+  
+
+  
+
+/* mobile  */
+@media (max-width: 480px) {
+    /* #card{
+        height: 90rem;
+    } */
+    .card-sample-cont{
+        border: none;
+        flex-direction: column;
+    }
+    
+}
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 810px) {
+
+
+
+}
+
