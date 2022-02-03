@@ -109,7 +109,17 @@
     font-size: 2rem;
     color:#524EA1 ;
 }
-
+.float{
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color:#524EA1 ;
+    color: #fff;display: flex;align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
 
 /* mobile  */
 @media (max-width: 480px) {

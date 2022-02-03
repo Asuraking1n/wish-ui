@@ -54,7 +54,10 @@
     height: 100%;
     border-right: 2px solid rgb(199, 195, 195);
 }
-
+.val{
+    color: red;
+    font-size: 1rem;
+}
 
 /* mobile  */
 @media (max-width: 480px) {
