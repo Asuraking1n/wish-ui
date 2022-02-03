@@ -23,6 +23,35 @@
     overflow-y: auto;
         
 }
+
+
+.doc-sidebar::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+.doc-sidebar::-webkit-scrollbar
+{
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.doc-sidebar::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,
+                     40% 0%,
+                     75% 84%,
+                     from(#524EA1),
+                     to(#05364d),
+                     color-stop(.6,#5464de))
+}
+
+
+
 .doc-sidebar span{
     padding: 1rem 0;
     
@@ -50,6 +79,36 @@
     overflow-x: hidden;
     
 }
+
+
+.doc-main-body::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+.doc-main-body::-webkit-scrollbar
+{
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.doc-main-body::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,
+                     40% 0%,
+                     75% 84%,
+                     from(#524EA1),
+                     to(#05364d),
+                     color-stop(.6,#5464de))
+}
+
+
+
+
 #installation{
     height: 30rem;
     width: 100%;
@@ -140,10 +199,7 @@
     justify-content: space-around;
     border: 3px solid #524ea1;
 }
-.avatar-container{
-    /* overflow: hidden; */
-    /* border-radius: 50%; */
-}
+
 .avatar-container img{
     border-radius: 50%;
     height: 100%;

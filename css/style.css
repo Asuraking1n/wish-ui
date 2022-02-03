@@ -6,6 +6,12 @@
 @import "./badge.css";
 @import "./button.css";
 @import "./card.css";
+@import "./image.css";
+@import "./input.css";
+
+
+
+
 *{
     margin: 0;
 }

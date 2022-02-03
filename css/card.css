@@ -101,9 +101,6 @@
 
 /* mobile  */
 @media (max-width: 480px) {
-    /* #card{
-        height: 90rem;
-    } */
     .card-sample-cont{
         border: none;
         flex-direction: column;
