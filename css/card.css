@@ -1,31 +1,31 @@
 #card{
-    height:80rem;
+    height:100rem;
     width: 100%;
     padding: 2rem;
     background-color: rgb(255, 255, 255);
     font-family: 'Hind',sans-serif;
 }
 .card-sample-cont{
-    height: 30rem;
-    width: 70rem;
+    height: 40%;
+    width: 95%;
     margin-top: 2rem;
     border-radius: 10px;
     display: flex;
     /* justify-content: space-around; */
-    align-items: center;
+    /* align-items: center; */
     border: 3px solid #524ea1;
     flex-wrap: wrap;
 
 }
 .cardOne {
-  margin-left: 2rem;
+  margin: 2rem;
     height: 10rem;
     width: 20rem;
     position: relative;
     box-shadow: 2px 2px 79px -44px rgba(0,0,0,0.75);
   }
   .cardOne-2 {
-    margin-left: 2rem;
+    margin: 2rem;
       height: 10rem;
       width: 20rem;
       background: url(https://freevector-images.s3.amazonaws.com/uploads/vector/preview/40529/White_Background_generated.jpg) no-repeat center center/cover;
@@ -102,7 +102,7 @@
   }
   .cardTwo {
    
-    margin-left: 2rem;
+    margin: 1rem;
     height: 15rem;
     width: 20rem;
     box-shadow: 2px 2px 79px -44px rgba(0,0,0,0.75);
@@ -141,14 +141,36 @@
 @media (max-width: 480px) {
     .card-sample-cont{
         border: none;
+        height: 50%;
+        width: 90%;
+        justify-content: center;
         flex-direction: column;
+        /* padding-right: 90%; */
     }
+    #card{
+      height:120rem;
+    }
+    .cardTwo{
+      margin-left: 2rem;
+    }
+    
     
 }
 
 /* tablet */
 @media (min-width: 481px) and (max-width: 810px) {
 
+  .card-sample-cont{
+    border: none;
+    height: 40%;
+    flex-direction: column;
+}
+#card{
+  height:100rem;
+}
+.cardTwo{
+  margin: 2rem;
+}
 
 
 }
