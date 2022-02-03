@@ -12,8 +12,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-  align-items: center;
-    
+    align-items: center;
     border: 3px solid #524ea1;
 
 }
@@ -59,9 +58,7 @@
 
 /* mobile  */
 @media (max-width: 480px) {
-    /* #button{
-        height: 165rem;
-    } */
+  
     .input-sample-cont{
         margin-left: 1rem;
         border: none;
@@ -71,9 +68,7 @@
 
 /* tablet */
 @media (min-width: 481px) and (max-width: 810px) {
-    /* #button{
-        height: 165rem;
-    } */
+    
     .input-sample-cont{
 
         border: none;
