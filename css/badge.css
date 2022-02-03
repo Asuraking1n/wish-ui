@@ -1,5 +1,5 @@
 #badge{
-    height:65rem;
+    height:115rem;
     width: 100%;
     padding: 2rem;
     background-color: rgb(255, 255, 255);
@@ -187,7 +187,7 @@
 @media (min-width: 481px) and (max-width: 810px) {
 
     #badge{
-        height:100rem;
+        height:120rem;
     }
     .badge-sample-cont{
         border: none;

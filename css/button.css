@@ -1,0 +1,125 @@
+#button{
+    height:130rem;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Hind',sans-serif;
+}
+.button-sample-cont{
+    height: 15rem;
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid #524ea1;
+}
+.primary{
+    height: 3rem;
+    width: 10rem;
+    cursor: pointer;
+}
+.solid-btn{
+    border: none;
+    color: white;
+    background-color: #909090;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+.outlined-btn{
+    border: 2px solid rgb(229, 229, 235);
+    color: #909090;
+    border-radius: 5px;
+   
+    font-size: 1rem;
+    background-color: #fff;
+}
+.transparent-btn{
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #909090;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: #909090;
+}
+.icon-btn{
+    background-color: #fff;
+    border: none;
+    height: auto;
+    width: auto;
+    padding: 0;
+}
+.btn-icon-check1{
+    font-size: 2rem;
+    color:#909090 ;
+}
+
+
+.secondary{
+    height: 3rem;
+    width: 10rem;
+    cursor: pointer;
+}
+.solid{
+    border: none;
+    color: white;
+    background-color: #524EA1;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+.outlined{
+    border: 2px solid #524EA1;
+    color: #524EA1;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    background-color: #fff;
+}
+.transparent{
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #524EA1;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: #524EA1;
+}
+.btn-icon{
+    background-color: #fff;
+    border: none;
+    height: auto;
+    width: auto;
+    padding: 0;
+}
+.btn-icon-check{
+    font-size: 2rem;
+    color:#524EA1 ;
+}
+
+
+/* mobile  */
+@media (max-width: 480px) {
+    #button{
+        height: 165rem;
+    }
+    .button-sample-cont{
+        height: 25rem;  
+        border: none;
+        flex-direction: column;
+    }
+}
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 810px) {
+    #button{
+        height: 165rem;
+    }
+    .button-sample-cont{
+        height: 25rem;  
+        border: none;
+        flex-direction: column;
+    }
+
+}
