@@ -3,9 +3,36 @@ const sideBar  = document.querySelector(".sidebar")
 const Input_validate = document.querySelector(".ip-validate") 
 const modalBackground = document.querySelector(".modal-background") 
 const closeIcon = document.querySelector(".close-icon") 
-// const val = document.querySelector(".val") 
-// const val = document.querySelector(".val") 
-// const val = document.querySelector(".val") 
+const sucessMsg = document.querySelector(".sucess-msg") 
+const errorMsg = document.querySelector(".error-msg") 
+const warnMsg = document.querySelector(".warn-msg") 
+
+
+
+const snackSucess=()=>{
+    sucessMsg.style.display="block"
+    setTimeout(()=>{
+        sucessMsg.style.display="none"
+    },1000)
+}
+const snackError=()=>{
+    errorMsg.style.display="block"
+    setTimeout(()=>{
+        errorMsg.style.display="none"
+    },1000)
+}
+
+const snackWarn=()=>{
+    warnMsg.style.display="block"
+    setTimeout(()=>{
+        warnMsg.style.display="none"
+    },1000)
+}
+
+
+
+
+
 
 const openModal=()=>{
     modalBackground.style.display="block"
