@@ -30,7 +30,8 @@
 
 .unordered-list{
     height: 60%;
-    width: 20%;
+    width: auto;
+    padding: 0 2rem;
     display: flex;
     font-size: 1.2rem;
     flex-direction: column;
@@ -48,9 +49,10 @@
 
 .ordered-list{
     height: 60%;
-    width: 20%;
+    width: auto;
     display: flex;
     font-size: 1.2rem;
+    padding: 0 2rem;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -149,3 +151,13 @@
     }
     
 }
+
+
+
+
+
+
+
+
+
+

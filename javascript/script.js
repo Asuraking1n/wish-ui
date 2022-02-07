@@ -1,7 +1,36 @@
 const preLoad = document.querySelector("#loading");
 const sideBar  = document.querySelector(".sidebar") 
 const Input_validate = document.querySelector(".ip-validate") 
-const val = document.querySelector(".val") 
+const modalBackground = document.querySelector(".modal-background") 
+const closeIcon = document.querySelector(".close-icon") 
+// const val = document.querySelector(".val") 
+// const val = document.querySelector(".val") 
+// const val = document.querySelector(".val") 
+
+const openModal=()=>{
+    modalBackground.style.display="block"
+}
+
+closeIcon.addEventListener("click",()=>{
+    modalBackground.style.display="none"
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const preLoader=()=> {
     setTimeout(()=>{
         preLoad.style.display = 'none'
