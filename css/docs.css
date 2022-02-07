@@ -9,7 +9,7 @@
 .doc-cont{
     width: 100%;
     height: 87vh;
-    background-color: #fff;
+    background-color: var(--secondary--color);
     display: flex;
 }
 
@@ -41,11 +41,11 @@
 .doc-sidebar::-webkit-scrollbar-thumb
 {
   border-radius: 10px;
-  background-color: #FFF;
+  background-color: var(--secondary--color);
   background-image: -webkit-gradient(linear,
                      40% 0%,
                      75% 84%,
-                     from(#524EA1),
+                     from(var(--primary--color)),
                      to(#05364d),
                      color-stop(.6,#5464de))
 }
@@ -58,7 +58,7 @@
     
 }
 .doc-sidebar span a{
-    color: #fff;
+    color: var(--secondary--color);
     text-decoration: none;
     font-family: 'Hind', sans-serif;
     font-size: 1.2rem;
@@ -97,11 +97,11 @@
 .doc-main-body::-webkit-scrollbar-thumb
 {
   border-radius: 10px;
-  background-color: #FFF;
+  background-color: var(--secondary--color);
   background-image: -webkit-gradient(linear,
                      40% 0%,
                      75% 84%,
-                     from(#524EA1),
+                     from(var(--primary--color)),
                      to(#05364d),
                      color-stop(.6,#5464de))
 }
@@ -119,7 +119,7 @@
 }
 .install-heading{
     font-size: 3rem;
-    color: #524ea1;
+    color: var(--primary--color);
 }
 
 .install-summary{
@@ -165,7 +165,7 @@
 }
 .component-heading{
     font-size: 3rem;
-    color: #524ea1;
+    color: var(--primary--color);
 }
 .component-summary{
     letter-spacing: 2px;
@@ -177,7 +177,7 @@
 .sample-component-head{
     font-size: 2rem;
     margin-top: 2rem;
-    color: #524ea1;
+    color: var(--primary--color);
 }
 .sample-component-summary{
     padding-top: 1rem;
@@ -186,7 +186,7 @@
     padding-right: 2rem;
 }
 .sample-component-summary span{
-    color: #524ea1;
+    color: var(--primary--color);
     font-weight: 600;
 }
 .avatar-sample-cont{
@@ -197,7 +197,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 3px solid #524ea1;
+    border: 3px solid var(--primary--color);
 }
 
 .avatar-container img{

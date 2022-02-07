@@ -2,7 +2,7 @@
     height:87rem;
     width: 100%;
     padding: 2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--secondary--color);
     font-family: 'Hind',sans-serif;
 }
 .alert-sample-cont{
@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid #524ea1;
+    border: 3px solid var(--primary--color);
 
 }
 .alert-box{
@@ -59,22 +59,6 @@
     color: #FF9204;
     margin-top: 2rem;
 }
-/* .alert-frame{
-    height: 30rem;
-    width: 70%;
-    margin-top: 1rem;
-    background-color: rgb(255, 255, 255);
-}
-.alert-frame{
-    height: 25rem;
-    width: 70%;
-    margin-top: 1rem;
-    background-color: rgb(255, 255, 255);
-}
-.alert-frame iframe{
-    height: 120%;
-    width: 110%;
-} */
 
 
 
