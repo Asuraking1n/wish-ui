@@ -12,7 +12,7 @@
 
 :root {
     --primary--color: #524ea1;
-    --secondary--color: var(--secondary--color);
+    --secondary--color: #fff;
     
     
     }
