@@ -146,9 +146,12 @@
                     <div class="avatar-container avatar-small"><img src="../assets/avatar-2.jpg" alt="">
                         <span class="blue-badge"></span>
                     </div>
+                    <div class="avatar-container avatar-small"><i class="fas fa-cart-plus" style="font-size: 2rem;"></i>
+                        <span class="icon-badge" ></span>
+                    </div>
                 </div>
                 <div class="badge-frame">
-                    <iframe src="https://carbon.now.sh/embed/VRlrYTdGumAXKhGDgP3O" style="width: 100%; height: 425px; border:2px solid rgb(255, 255, 255); 
+                    <iframe src="https://carbon.now.sh/embed/VRlrYTdGumAXKhGDgP3O" style="width: 100%; height: 300px; border:2px solid rgb(255, 255, 255); 
                     transform: scale(1);
                     padding: 1rem 1rem; 
                     overflow:hidden;" sandbox="allow-scripts allow-same-origin">
@@ -189,7 +192,7 @@
                 <div class="component-heading">Buttons</div>
                 <div class="component-summary">Buttons are also called as call to action. We have range of buttons and
                     their states.</div>
-                <div class="sample-component-head">Sample Primary Buttons :</div>
+                <div class="sample-component-head">Sample Primary and Float Buttons :</div>
                 <div class="sample-component-summary">Whenever you want your user to click on a link or button, use
                     primary style buttons.
                 </div>
@@ -198,6 +201,7 @@
                     <button class="primary outlined">Primary Outlined</button>
                     <button class="primary transparent">Primary Text</button>
                     <button class="primary btn-icon"><i class="fas fa-home btn-icon-check"></i></button>
+                    <button class="float">+</button>
                 </div>
                 <iframe src="https://carbon.now.sh/embed/To5NrDps6HXEcFYS6O0G" style="width: 70%; height: 200px; border:2px solid rgb(255, 255, 255); 
                 transform: scale(1);
@@ -228,6 +232,7 @@
                     <button class="primary outlined" disabled>Primary Outlined</button>
                     <button class="primary transparent" disabled>Primary Text</button>
                     <button class="primary btn-icon" disabled><i class="fas fa-home btn-icon-check"></i></button>
+                    
                 </div>
                 <iframe src="https://carbon.now.sh/embed/hXJAXylbuz6cZkjlcJhC" style="width: 70%; height: 200px; border:2px solid rgb(255, 255, 255); 
                 transform: scale(1);
@@ -279,6 +284,55 @@
                             <i class="fas fa-ellipsis-v" id="icon"></i>
                         </div>
                     </div>
+                    <div class="cardOne">
+                        <div class="imageData">
+                            <div class="image-1 ">
+                                <img src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="data">
+                                Our Changing Planet <br />
+                                <span>by Kurt Wagner</span>
+                            </div>
+                        </div>
+                        <div class="socialandLikes">
+                            <span>READ</span>
+                            <span>BOOKMARK</span>
+                            <i class="far fa-heart" id="icon"></i>
+                            <i class="fas fa-share-alt" id="icon"></i>
+                            <i class="fas fa-ellipsis-v" id="icon"></i>
+                        </div>
+                    </div>
+                    <div class="cardOne">
+                        <div class="imageData">
+                            <div class="data">
+                                Our Changing Planet <br />
+                                <span style="color: rgb(135, 137, 139);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span>
+                            </div>
+                        </div>
+                        <div class="socialandLikes">
+                            <span>READ</span>
+                            <span>BOOKMARK</span>
+                            <i class="far fa-heart" id="icon"></i>
+                            <i class="fas fa-share-alt" id="icon"></i>
+                            <i class="fas fa-ellipsis-v" id="icon"></i>
+                        </div>
+                    </div>
+                    <div class="cardOne-2">
+                        <div class="imageData">
+                            <div class="data">
+                                Our Changing Planet <br />
+                                <span style="color: rgb(135, 137, 139);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span>
+                            </div>
+                        </div>
+                        <div class="socialandLikes">
+                            <span>READ</span>
+                            <span>BOOKMARK</span>
+                            <i class="far fa-heart" id="icon"></i>
+                            <i class="fas fa-share-alt" id="icon"></i>
+                            <i class="fas fa-ellipsis-v" id="icon"></i>
+                        </div>
+                    </div>
                 </div>
                 <iframe src="https://carbon.now.sh/embed/yQRgmdDVJhP80GxttLD3" style="width: 70%; height: 450px; border:2px solid rgb(255, 255, 255); 
                 transform: scale(1);
@@ -321,9 +375,10 @@
                 <div class="component-heading">Input</div>
                 <div class="component-summary">Images are used to take various user data.</div>
                 <div class="sample-component-head">Sample Inputs:</div>
-                <div class="sample-component-summary">You can these input just by copy and pasting.
+                <div class="sample-component-summary">You can use these input just by copy and pasting.
                     <div class="input-sample-cont">
-                        <input type="text" class="simple" placeholder="Simple input">
+                        <input type="text" class="simple" required="true"
+                            placeholder="Simple input with required attribute">
                         <div class="load-input">
                             <input type="text" placeholder="loading input">
                             <i class="fas fa-spinner fa-spin"></i>
@@ -333,9 +388,15 @@
                             <i class="fas fa-spinner fa-spin"></i>
                         </div>
                         <div class="load-input">
+                            <input type="text" placeholder="Input with char length validation" oninput="inputValidate()"
+                                class="ip-validate">
+                            <div class="val"></div>
+                            <!-- <i class="fas fa-search"></i> -->
+                        </div>
+                        <div class="load-input">
                             <input type="text" placeholder="Search input">
                             <i class="fas fa-search"></i>
-                        </div>
+                            </div>
                         <div class="load-input">
                             <div class="label">https://</div>
                             <input type="text" placeholder="Labeled input">

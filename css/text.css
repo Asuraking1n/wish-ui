@@ -2,7 +2,7 @@
     height:50rem;
     width: 100%;
     padding: 2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--secondary--color);
     font-family: 'Hind',sans-serif;
 }
 .text-sample-cont{
@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid #524ea1;
+    border: 3px solid var(--primary--color);
 
 }
 .heading{

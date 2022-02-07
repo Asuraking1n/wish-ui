@@ -1,26 +1,37 @@
 #card{
-    height:80rem;
+    height:100rem;
     width: 100%;
     padding: 2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--secondary--color);
     font-family: 'Hind',sans-serif;
 }
 .card-sample-cont{
-    height: 30rem;
-    width: 90%;
+    height: 40%;
+    width: 95%;
     margin-top: 2rem;
     border-radius: 10px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 3px solid #524ea1;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    border: 3px solid var(--primary--color);
+    flex-wrap: wrap;
 
 }
 .cardOne {
+  margin: 2rem;
     height: 10rem;
     width: 20rem;
+    position: relative;
     box-shadow: 2px 2px 79px -44px rgba(0,0,0,0.75);
   }
+  .cardOne-2 {
+    margin: 2rem;
+      height: 10rem;
+      width: 20rem;
+      background: url(https://freevector-images.s3.amazonaws.com/uploads/vector/preview/40529/White_Background_generated.jpg) no-repeat center center/cover;
+      position: relative;
+      box-shadow: 2px 2px 79px -44px rgba(0,0,0,0.75);
+    }
   .imageData {
     display: flex;
     height: 65%;
@@ -29,6 +40,32 @@
     height: 6.5rem;
     width: 6.5rem;
     border-radius: 2px 4px 0 0;
+  }
+  .image-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+      }
+      .image-1::before{
+    content: "4";
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary--color);
+    border-radius: 50%;
+    background-color: rgb(0, 255, 55);
+
+  }
+  .image-1 img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
   }
   .data {
     width: 100%;
@@ -64,7 +101,8 @@
     /* background-color: rgb(138, 138, 138) !important; */
   }
   .cardTwo {
-    margin-top: 2rem;
+   
+    margin: 1rem;
     height: 15rem;
     width: 20rem;
     box-shadow: 2px 2px 79px -44px rgba(0,0,0,0.75);
@@ -103,14 +141,36 @@
 @media (max-width: 480px) {
     .card-sample-cont{
         border: none;
+        height: 50%;
+        width: 90%;
+        justify-content: center;
         flex-direction: column;
+        /* padding-right: 90%; */
     }
+    #card{
+      height:120rem;
+    }
+    .cardTwo{
+      margin-left: 2rem;
+    }
+    
     
 }
 
 /* tablet */
 @media (min-width: 481px) and (max-width: 810px) {
 
+  .card-sample-cont{
+    border: none;
+    height: 40%;
+    flex-direction: column;
+}
+#card{
+  height:100rem;
+}
+.cardTwo{
+  margin: 2rem;
+}
 
 
 }
