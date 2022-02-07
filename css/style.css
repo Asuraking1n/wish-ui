@@ -9,13 +9,8 @@
 @import "./image.css";
 @import "./input.css";
 @import "./text.css";
+@import "./navigation.css";
 
-:root {
-    --primary--color: #524ea1;
-    --secondary--color: #fff;
-    
-    
-    }
 
 
 *{
