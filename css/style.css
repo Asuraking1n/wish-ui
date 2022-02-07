@@ -12,7 +12,10 @@
 @import "./navigation.css";
 
 
-
+:root {
+    --primary--color: #524ea1;
+    --secondary--color:#fff;
+  }
 *{
     margin: 0;
 }
