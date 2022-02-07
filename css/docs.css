@@ -73,7 +73,7 @@
 
 .doc-main-body{
     width: 80%;
-    height: 100%;
+    height: auto;
     background-color: transparent;
     overflow-y: auto;
     overflow-x: hidden;
