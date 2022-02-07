@@ -10,7 +10,12 @@
 @import "./input.css";
 @import "./text.css";
 
-
+:root {
+    --primary--color: #524ea1;
+    --secondary--color: var(--secondary--color);
+    
+    
+    }
 
 
 *{
@@ -20,7 +25,7 @@
 #loading{
     height: 100vh;
     width: 100%;
-    background:#FFFFFF url("https://cssbud.com/wp-content/uploads/2021/08/tweaking-robot.gif") no-repeat center;
+    background:var(--secondary--color) url("https://cssbud.com/wp-content/uploads/2021/08/tweaking-robot.gif") no-repeat center;
     position: fixed;
     z-index: 999999;
 }
@@ -28,7 +33,7 @@
 .main-cont{
     height: 100vh;
     width: 100vw;
-    /* background-color: #ffffff; */
+    /* background-color: var(--secondary--color)fff; */
     background: url(../assets/bg2.jpg) center center / cover;
     overflow: hidden;
     position: relative;
@@ -51,7 +56,7 @@
 }
 .nav-logo:nth-child(1n){
     font-size: 3rem;
-    color: #524ea1;
+    color: var(--primary--color);
     
 }
 .gear{
@@ -99,7 +104,7 @@
 .social-btn{
     width: 6rem;
     padding:.2rem 1rem;
-    background-color: #fff;
+    background-color: var(--secondary--color);
     border-radius: 0 50px 50px 0;
     position: relative;
     box-shadow: 1px 0px 17px 0px #7d7d7e;
@@ -121,7 +126,7 @@
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
-    color: #5D2D9E;
+    color: var(--primary--color);
     font-weight: 600;
     font-family:  'Hind', sans-serif;
 }
@@ -131,13 +136,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: var(--secondary--color);
     border-radius: 50%;
     position: absolute;
     right: 0px;
 }
 .github{
-    color:#5D2D9E;
+    color:var(--primary--color);
     font-size: 2rem;
 }
 .body-sec{
@@ -197,7 +202,7 @@
     cursor: pointer;
     border-radius: 50px;
     border: 2px solid #3499dc;
-    background-color: #fff;
+    background-color: var(--secondary--color);
     color: #3499dc;
     margin-top: 1rem;
     margin-left: 0 !important;
@@ -208,7 +213,7 @@
 }
 .start:hover{
     background-color: #3499dc;
-    color: #fff;
+    color: var(--secondary--color);
 }
 
 
@@ -244,7 +249,7 @@
     }
     .nav-logo:nth-child(1n){
         font-size: 3rem;
-        color: #524ea1;
+        color: var(--primary--color);
         
     }
     .nav-buttons{
@@ -280,7 +285,7 @@
         margin: 1rem 0;
     }
     .sidebar span a{
-        color: #fff;
+        color: var(--secondary--color);
         text-decoration: none;
         font-family: 'Hind', sans-serif;
         font-size: 1.2rem;
@@ -306,7 +311,7 @@
 .social-btn{
     width: 6rem;
     padding:.2rem 1rem;
-    background-color: #fff;
+    background-color: var(--secondary--color);
     border-radius: 0 50px 50px 0;
     position: relative;
     box-shadow: 1px 0px 17px 0px rgba(0,0,0,0.75);
@@ -338,7 +343,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: var(--secondary--color);
     border-radius: 50%;
     position: absolute;
     right: 0px;
@@ -407,7 +412,7 @@
     cursor: pointer;
     border-radius: 50px;
     border: 2px solid #3499dc;
-    background-color: #fff;
+    background-color: var(--secondary--color);
     color: #3499dc;
     margin-top: 1rem;
     margin-left: 0 !important;
@@ -418,7 +423,7 @@
 }
 .start:hover{
     background-color: #3499dc;
-    color: #fff;
+    color: var(--secondary--color);
 }
 
 .gear{
@@ -459,7 +464,7 @@
     }
     .nav-logo:nth-child(1n){
         font-size: 3rem;
-        color: #524ea1;
+        color: var(--primary--color);
         
     }
     .nav-buttons{
@@ -498,7 +503,7 @@
 .social-btn{
     width: 6rem;
     padding:.2rem 1rem;
-    background-color: #fff;
+    background-color: var(--secondary--color);
     border-radius: 0 50px 50px 0;
     position: relative;
     box-shadow: 1px 0px 17px 0px rgba(0,0,0,0.75);
@@ -530,7 +535,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: var(--secondary--color);
     border-radius: 50%;
     position: absolute;
     right: 0px;
@@ -597,7 +602,7 @@
     cursor: pointer;
     border-radius: 50px;
     border: 2px solid #3499dc;
-    background-color: #fff;
+    background-color: var(--secondary--color);
     color: #3499dc;
     margin-top: 1rem;
     margin-left: 0 !important;
@@ -608,7 +613,7 @@
 }
 .start:hover{
     background-color: #3499dc;
-    color: #fff;
+    color: var(--secondary--color);
 }
 
 .gear{

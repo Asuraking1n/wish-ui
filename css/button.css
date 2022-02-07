@@ -2,7 +2,7 @@
     height:130rem;
     width: 100%;
     padding: 2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--secondary--color);
     font-family: 'Hind',sans-serif;
 }
 .button-sample-cont{
@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 3px solid #524ea1;
+    border: 3px solid var(--primary--color);
 }
 .primary{
     height: 3rem;
@@ -22,7 +22,7 @@
 }
 .solid-btn{
     border: none;
-    color: white;
+    color: var(--secondary--color);
     background-color: #909090;
     border-radius: 5px;
     letter-spacing: 1px;
@@ -34,10 +34,10 @@
     border-radius: 5px;
    
     font-size: 1rem;
-    background-color: #fff;
+    background-color: var(--secondary--color);
 }
 .transparent-btn{
-    background-color: #fff;
+    background-color: var(--secondary--color);
     border: none;
     border-bottom: 2px solid #909090;
     letter-spacing: 1px;
@@ -45,7 +45,7 @@
     color: #909090;
 }
 .icon-btn{
-    background-color: #fff;
+    background-color: var(--secondary--color);
     border: none;
     height: auto;
     width: auto;
@@ -65,41 +65,41 @@
 .solid{
     border: none;
     color: white;
-    background-color: #524EA1;
+    background-color: var(--primary--color);
     border-radius: 5px;
     letter-spacing: 1px;
     font-size: 1.2rem;
 }
 .solid:hover{
-    border: 2px solid #524EA1;
-    color: #524EA1;
-    background-color: #fff;
+    border: 2px solid var(--primary--color);
+    color: var(--primary--color);
+    background-color: var(--secondary--color);
 }
 
 .outlined{
-    border: 2px solid #524EA1;
-    color: #524EA1;
+    border: 2px solid var(--primary--color);
+    color: var(--primary--color);
     border-radius: 5px;
     letter-spacing: 1px;
     font-size: 1rem;
-    background-color: #fff;
+    background-color: var(--secondary--color);
 }
 .outlined:hover{
-    background-color: #524EA1;
-    color: #ffffff;
+    background-color: var(--primary--color);
+    color: var(--secondary--color)fff;
    
 }
 
 .transparent{
-    background-color: #fff;
+    background-color: var(--secondary--color);
     border: none;
-    border-bottom: 2px solid #524EA1;
+    border-bottom: 2px solid var(--primary--color);
     letter-spacing: 1px;
     font-size: 1rem;
-    color: #524EA1;
+    color: var(--primary--color);
 }
 .btn-icon{
-    background-color: #fff;
+    background-color: var(--secondary--color);
     border: none;
     height: auto;
     width: auto;
@@ -107,7 +107,7 @@
 }
 .btn-icon-check{
     font-size: 2rem;
-    color:#524EA1 ;
+    color:var(--primary--color) ;
 }
 .float{
     height: 3rem;
@@ -115,8 +115,8 @@
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-    background-color:#524EA1 ;
-    color: #fff;display: flex;align-items: center;
+    background-color:var(--primary--color) ;
+    color: var(--secondary--color);display: flex;align-items: center;
     justify-content: center;
     border-radius: 50%;
 }

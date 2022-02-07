@@ -2,7 +2,7 @@
     height:115rem;
     width: 100%;
     padding: 2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--secondary--color);
     font-family: 'Hind',sans-serif;
 }
 .image-sample-cont{
@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 3px solid #524ea1;
+    border: 3px solid var(--primary--color);
 }
 .img-res{
     height: 90%;
