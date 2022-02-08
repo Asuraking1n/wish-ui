@@ -19,7 +19,7 @@
 :root {
     --primary--color: #524ea1;
     --secondary--color:#fff;
-  }
+}
 *{
     margin: 0;
 }
@@ -208,10 +208,24 @@
     color: #3499dc;
     margin-top: 1rem;
     margin-left: 0 !important;
+    z-index: 200;
+    position: relative;
 
 }
 .launch-btn{
-    width: 57%
+    width: 57%;
+    position: relative;
+    
+
+}
+.launch-btn img{
+    position: absolute;
+    z-index: -11;
+    height: 120%;
+    left: 0;
+    z-index: 0;
+    top: -2rem;
+    width: 40%;
 }
 .start:hover{
     background-color: #3499dc;
@@ -418,10 +432,22 @@
     color: #3499dc;
     margin-top: 1rem;
     margin-left: 0 !important;
+    z-index: 200;
+    position: relative;
 
 }
 .launch-btn{
     width: 78%;
+    position: relative;
+}
+.launch-btn img{
+    position: absolute;
+    z-index: -11;
+    height: 120%;
+    left: 0;
+    z-index: 0;
+    top: -2rem;
+    width: 50%;
 }
 .start:hover{
     background-color: #3499dc;
@@ -608,10 +634,22 @@
     color: #3499dc;
     margin-top: 1rem;
     margin-left: 0 !important;
+    z-index: 200;
+    position: relative;
 
 }
 .launch-btn{
     width: 48%;
+    position: relative;
+}
+.launch-btn img{
+    position: absolute;
+    z-index: -11;
+    height: 120%;
+    left: 0;
+    z-index: 0;
+    top: -2rem;
+    width: 40%;
 }
 .start:hover{
     background-color: #3499dc;

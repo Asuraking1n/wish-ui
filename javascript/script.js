@@ -7,7 +7,12 @@ const sucessMsg = document.querySelector(".sucess-msg")
 const errorMsg = document.querySelector(".error-msg") 
 const warnMsg = document.querySelector(".warn-msg") 
 
-
+const preLoader=()=> {
+    setTimeout(()=>{
+        preLoad.style.display = 'none'
+    },1000)
+    
+}
 
 const snackSucess=()=>{
     sucessMsg.style.display="block"
@@ -46,24 +51,6 @@ closeIcon.addEventListener("click",()=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-const preLoader=()=> {
-    setTimeout(()=>{
-        preLoad.style.display = 'none'
-    },1000)
-    
-}
 const sideshow = () =>{
     sideBar.classList.toggle('active')
 }
