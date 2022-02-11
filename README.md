@@ -11,7 +11,7 @@
 
 <!-- PROJECT SHIELDS -->
 
-[![Contributors][contributors-shield]](https://github.com/Asuraking1n/wish-ui/pull/13)
+[![Contributors]](https://github.com/Asuraking1n/wish-ui/pull/13)
 [![Forks][forks-shield]](https://github.com/Asuraking1n/wish-u)
 [![Issues][issues-shield]](https://github.com/Asuraking1n/wish-ui/pull/13)
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/nishant-kumar-tiwari-253a46196/)
