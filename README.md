@@ -11,7 +11,7 @@
 
 <!-- PROJECT SHIELDS -->
 
-[[contributors-shield]](https://github.com/Asuraking1n/wish-ui/pull/13)
+[![Contributors][contributors-shield]](https://github.com/Asuraking1n/wish-ui/pull/13)
 [![Forks][forks-shield]](https://github.com/Asuraking1n/wish-u)
 [![Issues][issues-shield]](https://github.com/Asuraking1n/wish-ui/pull/13)
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/nishant-kumar-tiwari-253a46196/)
@@ -21,9 +21,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://wish-ui.netlify.app/">
-    <img src="screenshots/ss1.png" alt="Logo" width="80" height="80">
-  </a>
+  
+![](screenshots/ss2.PNG)
+ 
 
   <h3 align="center">Best-README-Template</h3>
 
@@ -47,13 +47,8 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="https://wish-ui.netlify.app/html/docs.html#installation">Installition</a>
-  
-    </li>
-    <li>
-      <a href="https://wish-ui.netlify.app/html/docs.html#avatar">Avatar</a>
-    </li>
+    <li><a href="https://wish-ui.netlify.app/html/docs.html#installation">Installation</a></li>
+    <li><a href="https://wish-ui.netlify.app/html/docs.html#avatar">Avatar</a></li>
     <li><a href="https://wish-ui.netlify.app/html/docs.html#alert">Alert</a></li>
     <li><a href="https://wish-ui.netlify.app/html/docs.html#badge">Badge</a></li>
     <li><a href="https://wish-ui.netlify.app/html/docs.html#button">Buttons</a></li>
@@ -73,8 +68,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](screenshots/ss2.png)
+![](screenshots/ss1.PNG)
 
 There are many great UI Libraries on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a CL template so amazing that it'll be the last one you ever need -- I think this is it.
 
