@@ -12,15 +12,7 @@ const preLoader = () => {
     preLoad.style.display = "none";
   }, 1000);
 };
-const inputValidate = () => {
-  data = InputValidateData.value;
-  console.log(data);
-  if (data.length < 6) {
-    val.innerHTML = "*Less ";
-  } else {
-    val.innerHTML = "";
-  }
-};
+
 const snackSucess = () => {
   sucessMsg.style.display = "block";
   setTimeout(() => {
