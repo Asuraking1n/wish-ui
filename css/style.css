@@ -14,6 +14,7 @@
 @import "./modal.css";
 @import "./snack.css";
 @import "./rating.css";
+@import "./grid.css";
 
 :root {
   --primary--color: #524ea1;
@@ -54,6 +55,11 @@
   --primary-snackbar1-color: #3aaf3a;
   --primary-snackbar2-color: #ee4242;
   --primary-snackbar3-color: #ffc04a;
+  /* grid color  */
+  --primary-grid1-color: #e4e4e4;
+  --primary-grid2-color:  #bfcafb;
+  --primary-grid3-color: #8aa6f3;
+
 }
 * {
   margin: 0;

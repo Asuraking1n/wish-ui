@@ -83,7 +83,7 @@
     75% 84%,
     from(var(--primary--color)),
     to(#05364d),
-    color-stop(0.6, --primary--color)
+    color-stop(0.6, var(--primary--color))
   );
 }
 
