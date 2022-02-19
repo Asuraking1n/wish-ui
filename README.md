@@ -25,7 +25,7 @@
 ![](screenshots/ss2.PNG)
  
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Wish UI: Component Library</h3>
 
   <p align="center">
     An awesome UI Component Library to jumpstart your projects!
