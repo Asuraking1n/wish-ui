@@ -20,7 +20,7 @@
 <br />
 <div align="center">
   
-![](screenshots/ss2.PNG)
+![](screenshots/cl.gif)
  
 
   <h3 align="center">Wish UI: Component Library</h3>
