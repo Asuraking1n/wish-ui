@@ -6,11 +6,29 @@ const closeIcon = document.querySelector(".close-icon");
 const sucessMsg = document.querySelector(".sucess-msg");
 const errorMsg = document.querySelector(".error-msg");
 const warnMsg = document.querySelector(".warn-msg");
+const val = document.querySelector(".val");
+const cardOne = document.querySelector(".cardOne");
 
 const preLoader = () => {
   setTimeout(() => {
     preLoad.style.display = "none";
   }, 1000);
+};
+
+const inputValidate = () => {
+  data = InputValidateData.value;
+  if (data.length < 6) {
+    val.innerHTML = "*Less ";
+  }else
+  if (data.length >10) {
+    val.innerHTML = "UnAccepted  ";
+  }  else {
+    val.innerHTML = "";
+  }
+};
+
+const closeCard = () => {
+  cardOne.style.display='none'
 };
 
 const snackSucess = () => {
@@ -43,13 +61,4 @@ closeIcon.addEventListener("click", () => {
 
 const sideshow = () => {
   sideBar.classList.toggle("active");
-};
-const inputValidate = () => {
-  data = InputValidateData.value;
-  console.log(data);
-  if (data.length < 6) {
-    val.innerHTML = "*Less ";
-  } else {
-    val.innerHTML = "";
-  }
 };
