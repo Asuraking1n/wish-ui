@@ -67,7 +67,7 @@
   background-color: var(--primary--color);
   border-radius: 5px;
   letter-spacing: 1px;
-  font-size: 1.2rem;
+  font-size: .8rem;
 }
 .solid:hover {
   border: 2px solid var(--primary--color);
