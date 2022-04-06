@@ -129,6 +129,14 @@
   text-transform: inherit;
 }
 
+#cardClose{
+  position: absolute;
+  right: 8px;
+  font-size: 1.5rem;
+  top: 2px;
+}
+
+
 /* mobile  */
 @media (max-width: 480px) {
   .card-sample-cont {

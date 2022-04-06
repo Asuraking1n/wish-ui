@@ -53,13 +53,18 @@
   position: absolute;
 }
 .icon-badge {
-  height: 10px;
+  height: 20px;
+  padding: 0 .3rem;
+  font-size: .8rem;
   border-radius: 50%;
-  border: 3px solid var(--secondary--color);
-  top: 30%;
-  right: 10px;
+  top: -.8rem;
+  right: 5px;
   width: 10px;
-  background-color: var(--primary-badge-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: rgb(255, 0, 0);
   z-index: 20;
   position: absolute;
 }
