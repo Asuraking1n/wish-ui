@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title></> | Documentation</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="nav-logo">
+        <span style="z-index: 6">U</span>
+        <span>&lt;/&gt;</span>
+        <span>I</span>
+        <img src="../assets/gear.png" alt="" class="gear" />
+      </div>
+      <div class="nav-buttons">
+        <span> <a href="../index.html">Home</a> </span>
+        <span> <a href="https://github.com/Asuraking1n/">Github</a> </span>
+      </div>
+    </div>
+    <div class="doc-cont">
+      <div class="doc-sidebar">
+        <span
+          ><a
+            href="#installation"
+            style="color: rgb(53, 52, 52); font-weight: 600"
+            >Installation</a
+          ></span
+        >
+        <span><a href="#avatar">Avatar</a></span>
+        <span><a href="#alert">Alert</a></span>
+        <span><a href="#badge">Badge</a></span>
+        <span><a href="#button">Button</a></span>
+        <span><a href="#card">Card</a></span>
+        <span><a href="#image">Image</a></span>
+        <span><a href="#input">Input</a></span>
+        <span><a href="#text">Text Utility</a></span>
+        <span><a href="#navigation">Navigation</a></span>
+        <span><a href="#list">List</a></span>
+        <span><a href="#modal">Modal</a></span>
+        <span><a href="#snackbar">SnackBar</a></span>
+        <span><a href="#rating">Rating</a></span>
+        <span><a href="#grid">Grid</a></span>
+      </div>
+      <div class="doc-main-body">
+        <div id="installation">
+          <div class="install-heading">How to install ?</div>
+          <div class="install-summary">
+            Well, This is the most easy part. Just copy, paste the code below
+            and <span>Wish</span> will do all the hardwork for you. <br />
+            Remember to paste Font Awesome CDN Link in your HTML file before
+            using and use js cdn below before ending of body tag.
+          </div>
+          <div class="install-frame">
+            <iframe
+              src="https://carbon.now.sh/embed/XgzKfyzGSH1a9Ci1CiN1"
+              style="
+                width: 70%;
+                height: 140px;
+                border: 2px solid rgb(255, 255, 255);
+                transform: scale(1);
+                padding: 1rem 1rem;
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="install-heading" style="margin-top: 2rem">
+            Custom Styling :
+          </div>
+          <div class="coming-soon">
+            <img
+              src="https://lotto.dekhnews.com/wp-content/uploads/2019/09/OccasionalParallelKoalabear-small.gif"
+              alt=""
+            />
+          </div>
+        </div>
+        <div id="avatar">
+          <div class="component-heading">Avatar</div>
+          <div class="component-summary">
+            Avatar can be used to show user's profile picture on profile
+            information page, on navigation bar.
+          </div>
+          <div class="sample-component-head">Sample Avatar :</div>
+          <div class="sample-component-summary">
+            Avatar is available in different sizes. You can use any image in
+            Avatar. You need to include class <span>avatar-container</span> and
+            for size add class according to size <span>avatar-large</span>,
+            <span>avatar-big</span>, <span>avatar-medium</span>,
+            <span>avatar-small</span> (e.g.
+            <span>class="avatar-container avatar-large"</span>)
+          </div>
+          <div class="avatar-sample-cont">
+            <div class="avatar-container avatar-large">
+              <img src="../assets/avatar-1.jpg" alt="" />
+            </div>
+            <div class="avatar-container avatar-big">
+              <img src="../assets/avatar-2.jpg" alt="" />
+            </div>
+            <div class="avatar-container avatar-medium">
+              <img src="../assets/avatar-3.jpg" alt="" />
+            </div>
+            <div class="avatar-container avatar-small">
+              <img src="../assets/avatar-2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="avatar-frame">
+            <iframe
+              src="https://carbon.now.sh/embed/MYKwSe4KrEKkQmjnRwRD"
+              style="
+                width: 70%;
+                height: 380px;
+                border: 2px solid rgb(255, 255, 255);
+                transform: scale(1);
+                padding: 1rem 1rem;
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="alert">
+          <div class="component-heading">Alert</div>
+          <div class="component-summary">
+            Alerts are used to attract user's attention for important
+            information without interrupting the user's flow.
+          </div>
+          <div class="sample-component-head">Sample Alert :</div>
+          <div class="sample-component-summary">
+            Available Alerts are- success alert, error alert, warning alert,
+            primary alert, secondary alert. To use this alert just use class
+            name <span>alert-box</span> and also add class according to alert
+            type-
+            <span
+              >alert-primary, alert-secondary, alert-warning , alert-danger,
+              alert-sucess</span
+            >. (e.g.class=" <span>alert-box alert-primary</span>").
+          </div>
+          <div class="alert-sample-cont">
+            <div class="alert-box alert-primary">
+              A primary alert example with a text link,
+              <a href="#"> Check it out.</a>
+            </div>
+            <div class="alert-box alert-secondary">
+              A secondary alert example!!!!
+            </div>
+            <div class="alert-box alert-danger">
+              <i class="fas fa-exclamation-triangle alert-icon"></i>
+              A danger alert example!!!!
+            </div>
+            <div class="alert-box alert-warning">
+              <i class="fas fa-exclamation-triangle alert-icon"></i>
+              A warning alert example!!!
+            </div>
+            <div class="alert-box alert-sucess">
+              <i class="fas fa-clipboard-check alert-icon"></i>
+              A success alert example!!!!
+            </div>
+          </div>
+
+          <div class="alert-frame">
+            <iframe
+              src="https://carbon.now.sh/embed/AIJNRTlFfmk7HFrtlHfu"
+              style="
+                width: 70%;
+                height: 450px;
+                border: 2px solid rgb(255, 255, 255);
+                transform: scale(1);
+                padding: 1rem 1rem;
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="badge">
+          <div class="component-heading">Badge</div>
+          <div class="component-summary">
+            Badges are used for status, notifications etc.
+          </div>
+          <div class="sample-component-head">Sample Badge :</div>
+          <div class="sample-component-summary">
+            Four type of badges are available which can be used with Avatar. Use
+            class names
+            <span>red-badge, green-badge, orange-badge, blue-badge</span> for
+            different badges.
+          </div>
+          <div class="avatar-sample-cont">
+            <div class="avatar-container avatar-large">
+              <img src="../assets/avatar-1.jpg" alt="" />
+              <span class="red-badge"></span>
+            </div>
+            <div class="avatar-container avatar-big">
+              <img src="../assets/avatar-2.jpg" alt="" />
+              <span class="green-badge"></span>
+            </div>
+            <div class="avatar-container avatar-medium">
+              <img src="../assets/avatar-3.jpg" alt="" />
+              <span class="orange-badge"></span>
+            </div>
+            <div class="avatar-container avatar-small">
+              <img src="../assets/avatar-2.jpg" alt="" />
+              <span class="blue-badge"></span>
+            </div>
+            <div class="avatar-container avatar-small">
+              <i class="fas fa-cart-plus" style="font-size: 2rem"></i>
+              <span class="icon-badge">2</span>
+            </div>
+          </div>
+          <div class="badge-frame">
+            <iframe
+              src="https://carbon.now.sh/embed/BR4LvQe8Tc6XmlVMxZ1v"
+              style="
+                width: 100%;
+                height: 300px;
+                border: 2px solid rgb(255, 255, 255);
+                transform: scale(1);
+                padding: 1rem 1rem;
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="tex-badge-cont-sec">
+            <div class="sample-component-head">Sample Text Badge :</div>
+            <div class="sample-component-summary">
+              Three type of Text badges are available in different shapes.
+            </div>
+            <div class="badge-sample-cont">
+              <div class="text-badge">
+                <div class="lg">Exapmle of large text with badge</div>
+                <div class="badge-comp lg rounded">New</div>
+              </div>
+              <div class="text-badge">
+                <div class="md">Exapmle of medium text with badge</div>
+                <div class="badge-comp extra-rounded">New</div>
+              </div>
+              <div class="text-badge">
+                <div class="sm">Exapmle of small text with badge</div>
+                <div class="badge-comp circle">New</div>
+              </div>
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed/5Sk762UqhRJh1Z8gGGIp"
+              style="
+                width: 70%;
+                height: 425px;
+                border: 2px solid white;
+                transform: scale(1);
+                padding: 1rem 1rem;
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="button">
+          <div class="component-heading">Buttons</div>
+          <div class="component-summary">
+            Buttons are also called as call to action. We have range of buttons
+            and their states.
+          </div>
+          <div class="sample-component-head">
+            Sample Primary and Float Buttons with Links:
+          </div>
+          <div class="sample-component-summary">
+            Whenever you want your user to click on a link or button, use
+            primary style buttons.
+          </div>
+          <div class="button-sample-cont">
+            <a href="https://wish-ui.netlify.app/"
+              ><button class="primary solid">Primary Solid With Links</button></a
+            >
+            <a href="https://wish-ui.netlify.app/"
+              ><button class="primary outlined">Primary Outlined</button></a
+            >
+            <a href="https://wish-ui.netlify.app/"
+              ><button class="primary transparent">Primary Text</button></a
+            >
+            <a href="https://wish-ui.netlify.app/"
+              ><button class="primary btn-icon">
+                <i class="fas fa-home btn-icon-check"></i></button
+            ></a>
+            <a href="https://wish-ui.netlify.app/"
+              ><button class="float">+</button></a
+            >
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/tUmFx834PHuzLDcmODjC"
+            style="
+              width: 70%;
+              height: 200px;
+              border: 2px solid rgb(255, 255, 255);
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="sample-component-head">Sample Secondary Buttons :</div>
+          <div class="sample-component-summary">
+            If you want user not to pay attention to buttons then use Secondary
+            buttons. You can directly copy below html code and use it in your
+            app.
+          </div>
+          <div class="button-sample-cont">
+            <button class="secondary solid-btn">Secondary Solid</button>
+            <button class="secondary outlined-btn">Secondary Outlined</button>
+            <button class="secondary transparent-btn">Secondary Text</button>
+            <button class="secondary icon-btn">
+              <i class="fas fa-home btn-icon-check1"></i>
+            </button>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/Hew44CKnxSbjXAC4ndVk"
+            style="
+              width: 70%;
+              height: 200px;
+              border: 2px solid rgb(255, 255, 255);
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="sample-component-head">
+            Sample Disabled Primary Buttons :
+          </div>
+          <div class="sample-component-summary">
+            If you want to use disabled buttons just copy paste the code below.
+          </div>
+          <div class="button-sample-cont">
+            <button class="primary solid" disabled>Primary Solid</button>
+            <button class="primary outlined" disabled>Primary Outlined</button>
+            <button class="primary transparent" disabled>Primary Text</button>
+            <button class="primary btn-icon" disabled>
+              <i class="fas fa-home btn-icon-check"></i>
+            </button>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/hXJAXylbuz6cZkjlcJhC"
+            style="
+              width: 70%;
+              height: 200px;
+              border: 2px solid rgb(255, 255, 255);
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div id="card">
+          <div class="component-heading">Cards</div>
+          <div class="component-summary">
+            Card are used to show user related data collectively, like product
+            details.
+          </div>
+          <div class="sample-component-head">Sample Card :</div>
+          <div class="sample-component-summary">
+            you can use any image in card just copy paste code below.
+          </div>
+          <div class="card-sample-cont">
+            <div class="cardOne">
+              <div class="imageData">
+                <div class="image">
+                  <img
+                    src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="data">
+                  <i class="fa-solid fa-xmark " id="cardClose" onclick="closeCard()"></i>
+                  Horizantal Card with Dismiss <br />
+                  <span>by Kurt Wagner</span>
+                </div>
+              </div>
+              <div class="socialandLikes">
+                <span>READ</span>
+                <span>BOOKMARK</span>
+                <i class="far fa-heart" id="icon"></i>
+                <i class="fas fa-share-alt" id="icon"></i>
+                <i class="fas fa-ellipsis-v" id="icon"></i>
+              </div>
+            </div>
+            <div class="cardTwo">
+              <div class="image-cardTwo">
+                <img
+                  src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="data-cardTwo">
+                Vertical Card <br />
+                <span>by Kurt Wagner</span>
+              </div>
+              <div class="socialandLikes" style="height: 25%">
+                <span>READ</span>
+                <span>BOOKMARK</span>
+                <i class="far fa-heart" id="icon"></i>
+                <i class="fas fa-share-alt" id="icon"></i>
+                <i class="fas fa-ellipsis-v" id="icon"></i>
+              </div>
+            </div>
+            <div class="cardOne">
+              <div class="imageData">
+                <div class="image-1">
+                  <img
+                    src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="data">
+                  Card With Badge <br />
+                  <span>by Kurt Wagner</span>
+                </div>
+              </div>
+              <div class="socialandLikes">
+                <span>READ</span>
+                <span>BOOKMARK</span>
+                <i class="far fa-heart" id="icon"></i>
+                <i class="fas fa-share-alt" id="icon"></i>
+                <i class="fas fa-ellipsis-v" id="icon"></i>
+              </div>
+            </div>
+            <div class="cardOne">
+              <div class="imageData">
+                <div class="data">
+                  Only Text Card <br />
+                  <span style="color: rgb(135, 137, 139)"
+                    >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </span>
+                </div>
+              </div>
+              <div class="socialandLikes">
+                <span>READ</span>
+                <span>BOOKMARK</span>
+                <i class="far fa-heart" id="icon"></i>
+                <i class="fas fa-share-alt" id="icon"></i>
+                <i class="fas fa-ellipsis-v" id="icon"></i>
+              </div>
+            </div>
+            <div class="cardOne-2">
+              <div class="imageData">
+                <div class="data">
+                  Text On Image Card <br />
+                  <span style="color: rgb(135, 137, 139)"
+                    >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </span>
+                </div>
+              </div>
+              <div class="socialandLikes">
+                <span>READ</span>
+                <span>BOOKMARK</span>
+                <i class="far fa-heart" id="icon"></i>
+                <i class="fas fa-share-alt" id="icon"></i>
+                <i class="fas fa-ellipsis-v" id="icon"></i>
+              </div>
+            </div>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/NRxQIQ2q9flBeYOZK4rr"
+            style="
+              width: 70%;
+              height: 450px;
+              border: 2px solid rgb(255, 255, 255);
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div id="image">
+          <div class="component-heading">Images</div>
+          <div class="component-summary">
+            Images can be responsive to fit the parent's width, and also can be
+            customised to be round shaped
+          </div>
+          <div class="sample-component-head">Sample Responsive Image :</div>
+          <div class="sample-component-summary">
+            You can add class img-res to make your image fit the width of
+            container. It's height will get adjusted by keeping the aspect ratio
+            same. If you want to change the aspect ratio, you will have to crop
+            the image.
+            <div class="image-sample-cont">
+              <img
+                src="https://wallpaperaccess.com/full/723583.jpg"
+                class="img-res"
+                alt=""
+              />
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed/w4bHmDT2wYr39z26wBBO"
+              style="
+                width: 90%;
+                height: 200px;
+                border: 2px solid rgb(255, 255, 255);
+                transform: scale(1);
+                padding: 1rem 1rem;
+                padding-right: 4rem;
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+            <div class="sample-component-head">Sample Round Image :</div>
+            <div class="sample-component-summary">
+              You can add class img-rou to make your image round.
+              <div class="image-sample-cont">
+                <img
+                  src="https://cdn.vox-cdn.com/thumbor/23dWY86RxkdF7ZegvfnY8gFjR7s=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19157811/ply0947_fall_reviews_2019_tv_anime.jpg"
+                  class="img-rou img-size"
+                  alt=""
+                />
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed/srfbZwAjgUvbWTL9rgWy"
+                style="
+                  width: 90%;
+                  height: 200px;
+                  border: 2px solid rgb(255, 255, 255);
+                  transform: scale(1);
+                  padding: 1rem 1rem;
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <div id="input">
+          <div class="component-heading">Input</div>
+          <div class="component-summary">
+            Images are used to take various user data.
+          </div>
+          <div class="sample-component-head">Sample Inputs:</div>
+          <div class="sample-component-summary">
+            You can use these input just by copy and pasting.
+            <div class="input-sample-cont">
+              <input
+                type="text"
+                class="simple"
+                required="true"
+                placeholder="Simple input with required attribute"
+              />
+              <div class="load-input">
+                <input type="text" placeholder="loading input" />
+                <i class="fas fa-spinner fa-spin"></i>
+              </div>
+              <div class="load-input">
+                <input
+                  type="text"
+                  placeholder="Disbaled loading input"
+                  disabled
+                />
+                <i class="fas fa-spinner fa-spin"></i>
+              </div>
+              <div class="load-input">
+                <input
+                  type="text"
+                  placeholder="Input with char length validation"
+                  oninput="inputValidate()"
+                  class="ip-validate"
+                />
+                <div class="val"></div>
+                <!-- <i class="fas fa-search"></i> -->
+              </div>
+              <div class="load-input">
+                <input type="text" placeholder="Search input" />
+                <i class="fas fa-search"></i>
+              </div>
+              <div class="load-input">
+                <div class="label">https://</div>
+                <input type="text" placeholder="Labeled input" />
+              </div>
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed/ASPxNlpTLHKhuXUGXliW"
+              style="
+                width: 90%;
+                height: 450px;
+                border: 2px solid rgb(255, 255, 255);
+                transform: scale(1);
+                padding: 1rem 1rem;
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="text">
+          <div class="component-heading">Text</div>
+          <div class="component-summary">
+            Texts are used to show different imformations.
+          </div>
+          <div class="sample-component-head">Sample Text:</div>
+          <div class="sample-component-summary">
+            You can these Text just by adding respective class names.
+          </div>
+          <div class="text-sample-cont">
+            <h1 class="heading">Heading Text</h1>
+            <h3 class="small-text">Small Text</h3>
+            <h5 class="gray-text">Grey Text</h5>
+            <h6 class="centered-text">Center</h6>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/9Crk5TwC5iCqjMC8tB6o"
+            style="
+              width: 70%;
+              height: 225px;
+              border: 2px solid rgb(255, 255, 255);
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div id="navigation">
+          <div class="component-heading">Navigation</div>
+          <div class="component-summary">
+            Navigation bar is used to navigate through the web apps or websites.
+            This navigation component is responsive. It is a hamburger menu in
+            Android devices
+          </div>
+          <div class="sample-component-head">Sample Navigation:</div>
+          <div class="sample-component-summary">
+            You can this navigation bar just by copy and pasting.
+          </div>
+          <div class="navigation-sample-cont">
+            <div class="nav-style">
+              <div class="nav-logo">
+                <span style="z-index: 2">U</span>
+                <span>&lt;/&gt;</span>
+                <span>I</span>
+              </div>
+              <div class="nav-buttons">
+                <span> <a href="#">Home</a> </span>
+                <span> <a href="#">Blog</a> </span>
+
+                <div class="ham-burger">
+                  <i class="fas fa-stream ham-burger"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/oIjWw4HnpxcTnu21uc5B"
+            style="
+              width: 70%;
+              height: 445px;
+              border: 2px solid rgb(255, 255, 255);
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div id="modal">
+          <div class="component-heading">Modal</div>
+          <div class="component-summary">
+            Modals are positioned over everything else in the document and
+            remove scroll from the page. It gets closed only with close button
+            on modal pop-up.
+          </div>
+          <div class="sample-component-head">Sample Modal Window:</div>
+          <div class="sample-component-summary">
+            You can use modals to show any important and highlighted stuff.
+          </div>
+          <div class="modal-sample-cont">
+            <button onclick="openModal()">OPEN</button>
+            <div class="modal-background">
+              <div class="modal-container">
+                <div class="modal-close">
+                  <i class="fas fa-times close-icon"></i>
+                </div>
+                <div class="modal-data">
+                  <span
+                    >This is a Custom Section You can add or design whatever you
+                    want.</span
+                  >
+                  <img
+                    src="https://media0.giphy.com/media/3o6MbrR0Ki470BTOVi/giphy.gif"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/xtsQKRh1TPpRYAPwkBI8"
+            style="
+              width: 80%;
+              height: 425px;
+              border: 2px solid rgb(255, 255, 255);
+              margin-left: 0;
+              margin-right: 10%;
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div id="list">
+          <div class="component-heading">List</div>
+          <div class="component-summary">
+            Lists can be used at so many places, navigation bar, stacked
+            notifications, article pages, etc.
+          </div>
+          <div class="sample-component-head">Sample List types:</div>
+          <div class="sample-component-summary">
+            Add class according to bullet style. Copy html code below and add
+            your desired list items.
+          </div>
+          <div class="list-sample-cont">
+            <!-- un-ordered list -->
+            <ul class="unordered-list">
+              <li>Unordered List type 1</li>
+              <li class="list-type-sqr">Unordered List type 2</li>
+              <li class="list-type-circle-outlined">Unordered List type 3</li>
+            </ul>
+            <!-- ordered list -->
+            <ol class="ordered-list">
+              <li class="list-type-captial">OL Capital Alphabets</li>
+              <li class="list-type-small">OL Small Alphabets</li>
+              <li class="list-type-number">OL with Numbers</li>
+            </ol>
+            <ol class="ordered-list">
+              <li class="list-type-no-bullet">OL with no bullet</li>
+              <li class="list-type-lower-roman">OL Capital Roman</li>
+              <li class="list-type-cap-roman">OL Small Roman</li>
+            </ol>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/nPF2Rq3E9PfHpnII12Xn"
+            style="
+              width: 70%;
+              height: 455px;
+              border: 2px solid rgb(255, 255, 255);
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="sample-component-head">
+            Sample Notification Stacked Lists:
+          </div>
+          <div class="sample-component-summary">
+            Add class according to bullet style. Copy html code below and add
+            your desired list items.
+          </div>
+          <div class="list-sample-cont-1">
+            <ol class="ordered-list-notification">
+              <li class="list-type-no-bullet">
+                <div class="cardOne">
+                  <div class="imageData">
+                    <div class="image">
+                      <img
+                        src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="data">
+                      Our Changing Planet <br />
+                      <span>by Kurt Wagner</span>
+                    </div>
+                  </div>
+                  <div class="socialandLikes">
+                    <span>READ</span>
+                    <span>BOOKMARK</span>
+                    <i class="far fa-heart" id="icon"></i>
+                    <i class="fas fa-share-alt" id="icon"></i>
+                    <i class="fas fa-ellipsis-v" id="icon"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="list-type-no-bullet">
+                <div class="cardOne">
+                  <div class="imageData">
+                    <div class="image">
+                      <img
+                        src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="data">
+                      Our Changing Planet <br />
+                      <span>by Kurt Wagner</span>
+                    </div>
+                  </div>
+                  <div class="socialandLikes">
+                    <span>READ</span>
+                    <span>BOOKMARK</span>
+                    <i class="far fa-heart" id="icon"></i>
+                    <i class="fas fa-share-alt" id="icon"></i>
+                    <i class="fas fa-ellipsis-v" id="icon"></i>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/87W8RGbSPjLMi9Ust7tr"
+            style="
+              width: 70%;
+              height: 255px;
+              border: 2px solid rgb(255, 255, 255);
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          ></iframe>
+        </div>
+        <div id="snackbar">
+          <div class="component-heading">SnackBar</div>
+          <div class="component-summary">
+            This component can be used for toast or snackbar component. Snackbar
+            is to used show message that need user action
+          </div>
+          <div class="sample-component-head">Sample :</div>
+          <div class="sample-component-summary">
+            You can use snackbar to show notifications and error,sucess and warn
+            messages.
+          </div>
+          <div class="snackbar-sample-cont">
+            <button class="sucess-snack-btn" onclick="snackSucess()">
+              Sucess
+            </button>
+            <button class="error-snack-btn" onclick="snackError()">
+              Error
+            </button>
+            <button class="warn-snack-btn" onclick="snackWarn()">
+              Warning
+            </button>
+            <div class="snack-cont sucess-snack-btn sucess-msg">
+              Sucessfully Delivered
+            </div>
+            <div class="snack-cont error-snack-btn error-msg">Error 501</div>
+            <div class="snack-cont warn-snack-btn warn-msg">
+              Warning Wrong Mail
+            </div>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/K3wmXdzAiOTr82W9Zkfj"
+            style="
+              width: 80%;
+              height: 325px;
+              border: 2px solid rgb(255, 255, 255);
+              margin-left: 0;
+              margin-right: 10%;
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div id="rating">
+          <div class="component-heading">Rating</div>
+          <div class="component-summary">
+            Rating components can be used as read-only badge or in reviews
+            section. Can be used in reviews section as form too.
+          </div>
+          <div class="sample-component-head">Sample Rating:</div>
+          <div class="sample-component-summary">
+            You can use Rating just by copy pasting code below.
+          </div>
+          <div class="rating-sample-cont">
+            <div class="rate">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text">5 stars</label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text">4 stars</label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text">3 stars</label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text">2 stars</label>
+              <input type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text">1 star</label>
+            </div>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/tJpGoDN1YpYkIhuGgeRh"
+            style="
+              width: 80%;
+              height: 425px;
+              border: 2px solid rgb(255, 255, 255);
+              margin-left: 0;
+              margin-right: 10%;
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div id="grid">
+          <div class="component-heading">Grid</div>
+          <div class="component-summary">
+            Grid creates complex responsive web design grid layouts more easily
+            and consistently across browsers
+          </div>
+          <div class="sample-component-head">Sample Single Grid:</div>
+          <div class="sample-component-summary">
+            You can use grid just by copy pasting code below. One,Two, Three Grids systems are available.
+          </div>
+          <div class="grid-sample-cont">
+            <div class="main-3grid">
+              <div class="grid-child"></div>
+          </div>
+          <div class="sample-component-head">Sample double Grid:</div>
+          <div class="grid-sample-cont">
+            <div class="main-3grid">
+              <div class="grid-child">
+                <div class="grid-children"></div>
+                <div class="grid-children"></div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="sample-component-head">Sample 3 Grid:</div>
+          <div class="grid-sample-cont">
+            <div class="main-3grid">
+              
+              <div class="grid-child2">
+                <div class="grid-children"></div>
+                <div class="grid-children"></div>
+                <div class="grid-children"></div>
+              </div>
+            </div>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed/DTZX6qRIsUWnKj5Jztie"
+            style="
+              width: 80%;
+              height: 325px;
+              border: 2px solid rgb(255, 255, 255);
+              margin-left: 0;
+              margin-right: 10%;
+              transform: scale(1);
+              padding: 1rem 1rem;
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <script src="../javascript/script.js"></script>
+  </body>
+</html>

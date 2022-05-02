@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+
+.doc-cont {
+  width: 100%;
+  height: 87vh;
+  background-color: var(--secondary--color);
+  display: flex;
+}
+
+.doc-sidebar {
+  width: 20%;
+  height: 100%;
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.doc-sidebar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px var(--primary-black-color);
+  background-color: var(--secondary-bg-color);
+  border-radius: 10px;
+}
+
+.doc-sidebar::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--secondary--color);
+}
+
+.doc-sidebar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--secondary--color);
+  background-image: -webkit-gradient(
+    linear,
+    40% 0%,
+    75% 84%,
+    from(var(--primary--color)),
+    to(#05364d),
+    color-stop(0.6, var(--second-primary-badge-color))
+  );
+}
+
+.doc-sidebar span {
+  padding: 1rem 0;
+}
+.doc-sidebar span a {
+  color: var(--secondary--color);
+  text-decoration: none;
+  font-family: "Hind", sans-serif;
+  font-size: 1.2rem;
+  color: var(--extra-light-secondary-color);
+}
+.doc-sidebar span a:hover {
+  color: var(--light-secondary-color);
+}
+
+.doc-main-body {
+  width: 80%;
+  height: auto;
+  background-color: transparent;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.doc-main-body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px var(--primary-black-color);
+  background-color: var(--secondary--color);
+  border-radius: 10px;
+}
+
+.doc-main-body::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--secondary--color);
+}
+
+.doc-main-body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--secondary--color);
+  background-image: -webkit-gradient(
+    linear,
+    40% 0%,
+    75% 84%,
+    from(var(--primary--color)),
+    to(#05364d),
+    color-stop(0.6, var(--primary--color))
+  );
+}
+
+#installation {
+  height: 35rem;
+  width: 100%;
+  padding: 2rem;
+
+  font-family: "Hind", sans-serif;
+  background-color: var(--secondary--color);
+}
+.install-heading {
+  font-size: 3rem;
+  color: var(--primary--color);
+}
+
+.install-summary {
+  color: var(--extra-light-secondary-color);
+  padding-left: 4px;
+  padding-right: 2rem;
+}
+.install-summary span {
+  color: var(--second-primary-color);
+  letter-spacing: 2px;
+}
+.coming-soon {
+  height: 5rem;
+  width: 5rem;
+  margin-top: 1rem;
+  padding-left: 10rem;
+}
+.coming-soon img {
+  height: 100%;
+  width: 100%;
+}
+
+#avatar {
+  height: 67rem;
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--secondary--color);
+  font-family: "Hind", sans-serif;
+}
+.component-heading {
+  font-size: 3rem;
+  color: var(--primary--color);
+}
+.component-summary {
+  letter-spacing: 2px;
+  font-size: 1.7rem;
+  padding-right: 2rem;
+  line-height: 35px;
+  color: var(--extra-light-secondary-color);
+}
+.sample-component-head {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: var(--primary--color);
+}
+.sample-component-summary {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding-right: 2rem;
+}
+.sample-component-summary span {
+  color: var(--primary--color);
+  font-weight: 600;
+}
+.avatar-sample-cont {
+  height: 15rem;
+  width: 90%;
+  margin-top: 2rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 3px solid var(--primary--color);
+}
+
+.avatar-container img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+.avatar-large {
+  height: 10rem;
+  width: 10rem;
+}
+
+.avatar-big {
+  height: 8rem;
+  width: 8rem;
+}
+.avatar-medium {
+  height: 5rem;
+  width: 5rem;
+}
+.avatar-small {
+  height: 3rem;
+  width: 3rem;
+}
+
+/* mobile  */
+@media (max-width: 480px) {
+  .doc-sidebar {
+    display: none;
+  }
+  .doc-main-body {
+    width: 100%;
+  }
+  .install-heading {
+    font-size: 2rem;
+  }
+
+  .install-summary {
+    padding-right: 4rem;
+  }
+
+  .coming-soon {
+    padding-left: 8rem;
+  }
+  .component-heading {
+    font-size: 2rem;
+  }
+  #avatar {
+    height: 95rem;
+  }
+
+  .component-summary {
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding-right: 4rem;
+  }
+  .sample-component-head {
+    font-size: 1.5rem;
+  }
+  .sample-component-summary {
+    padding-right: 4rem;
+    font-size: 1rem;
+  }
+  .avatar-sample-cont {
+    height: 40rem;
+    flex-direction: column;
+    border: 0;
+  }
+}
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 810px) {
+  #avatar {
+    height: 85rem;
+  }
+}
